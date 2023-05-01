@@ -1,1 +1,1 @@
-//randomize()
+randomize()

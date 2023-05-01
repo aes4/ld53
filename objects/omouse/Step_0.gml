@@ -32,6 +32,8 @@ if instance_exists(obmainmenu) {
     if (place_meeting(x, y, obmainmenu)) {
     	if (mouse_button == mb_left || mouse_button == mb_right) {
     		room_goto(rmainmenu)
+            audio_stop_sound(opersistent.tr)
+            opersistent.trt = true
     	}
     }
 }
@@ -51,6 +53,7 @@ if (place_meeting(x, y, oscard)) {
             oplayer.coin -= oplayer.speedprice
             oplayer.velcap *= 1.1
             oplayer.speedprice++
+            audio_play_sound(aupgrade, 4, false, opersistent.vol)
         }
 	}
 }
@@ -60,6 +63,7 @@ if (place_meeting(x, y, occard)) {
             oplayer.coin -= oplayer.capacityprice
             oplayer.capacity++
             oplayer.capacityprice++
+            audio_play_sound(aupgrade, 4, false, opersistent.vol)
         }
 	}
 }

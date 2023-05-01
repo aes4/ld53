@@ -1,0 +1,1 @@
+audio_play_sound(aopen, 1, false, opersistent.vol)

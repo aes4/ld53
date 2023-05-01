@@ -1,2 +1,4 @@
 debug = false
-vol = 0.5
+vol = 0.8
+trt = true
+tr = false
