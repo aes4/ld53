@@ -2,10 +2,7 @@
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
   "name": "odialog",
-  "spriteId": {
-    "name": "sd1",
-    "path": "sprites/sd1/sd1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "managed": true,
