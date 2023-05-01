@@ -1,0 +1,13 @@
+dir = 2
+vel = 0
+velstart = 0.1
+velcap = 6
+velinc = 1 + (1/2)
+ldir = 4
+coin = 0
+capacity = 1
+holding = 0
+speedprice = 1
+capacityprice = 1
+shopopen = false
+depth = -2
